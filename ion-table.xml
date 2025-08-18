@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="IonTable" version="1.0">
+  <meta>
+    <author>Dude</author>
+    <language>Hindi</language>
+    <description>कुछ सामान्य आयनों की संयोजकता (HTML + CSS + JS in XML)</description>
+  </meta>
+
+  <html>
+    <![CDATA[
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>कुछ सामान्य आयनों की संयोजकता</title>
+</head>
+<body>
+
+  <h1>कुछ सामान्य आयनों की संयोजकता</h1>
+  <hr>
+
+  <h2>एक संयोजक आयन</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>धनायन</th>
+        <th></th>
+        <th>ऋणायन</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>हाइड्रोजन</td>
+        <td>H&plus;</td>
+        <td>क्लोराइड</td>
+        <td>Cl&minus;</td>
+      </tr>
+      <tr>
+        <td>सोडियम</td>
+        <td>Na&plus;</td>
+        <td>नाइट्रेट, नाइट्राइट</td>
+        <td>NO&#8323;&minus;, NO&#8322;&minus;</td>
+      </tr>
+      <tr>
+        <td>पोटैशियम</td>
+        <td>K&plus;</td>
+        <td>एसीटेट</td>
+        <td>CH&#8323;COO&minus;</td>
+      </tr>
+      <tr>
+        <td>सिल्वर (चाँदी)</td>
+        <td>Ag&plus;</td>
+        <td>ब्रोमाइड</td>
+        <td>Br&minus;</td>
+      </tr>
+      <tr>
+        <td>अमोनियम</td>
+        <td>NH&#8324;&plus;</td>
+        <td>आयोडाइड</td>
+        <td>I&minus;</td>
+      </tr>
+      <tr>
+        <td>पारा (I) / मरक्यूरस</td>
+        <td>Hg&plus;</td>
+        <td>हाइड्रॉक्साइड</td>
+        <td>OH&minus;</td>
+      </tr>
+      <tr>
+        <td>कॉपर (I) / क्यूप्रस</td>
+        <td>Cu&plus;</td>
+        <td>सायनाइड</td>
+        <td>CN&minus;</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>द्वि-संयोजक आयन</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>धनायन</th>
+        <th></th>
+        <th>ऋणायन</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>कैल्शियम</td>
+        <td>Ca&sup2;&plus;</td>
+        <td>सल्फाइड</td>
+        <td>S&sup2;&minus;</td>
+      </tr>
+      <tr>
+        <td>मैग्नीशियम</td>
+        <td>Mg&sup2;&plus;</td>
+        <td>सल्फेट, सल्फाइट</td>
+        <td>SO&#8324;&sup2;&minus;, SO&#8323;&sup2;&minus;</td>
+      </tr>
+      <tr>
+        <td>कॉपर (II) / क्यूप्रिक</td>
+        <td>Cu&sup2;&plus;</td>
+        <td>कार्बोनेट</td>
+        <td>CO&#8323;&sup2;&minus;</td>
+      </tr>
+      <tr>
+        <td>पारा (II) / मरक्यूरिक</td>
+        <td>Hg&sup2;&plus;</td>
+        <td>ऑक्सलेट</td>
+        <td>C&#8322;O&#8324;&sup2;&minus;</td>
+      </tr>
+      <tr>
+        <td>जिंक</td>
+        <td>Zn&sup2;&plus;</td>
+        <td>आयरन (II) / फेरस</td>
+        <td>Fe&sup2;&plus;</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>त्रि-संयोजक आयन</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>धनायन</th>
+        <th></th>
+        <th>ऋणायन</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>एल्युमिनियम</td>
+        <td>Al&sup3;&plus;</td>
+        <td>फॉस्फेट</td>
+        <td>PO&#8324;&sup3;&minus;</td>
+      </tr>
+      <tr>
+        <td>आयरन (III) / फेरिक</td>
+        <td>Fe&sup3;&plus;</td>
+        <td>बोरेट</td>
+        <td>BO&#8323;&sup3;&minus;</td>
+      </tr>
+      <tr>
+        <td>क्रोमियम</td>
+        <td>Cr&sup3;&plus;</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+    ]]>
+  </html>
+
+  <css>
+    <![CDATA[
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #004085;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background: #007bff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background: #ffeeba;
+}
+
+@media (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+}
+/* Highlight style */
+.highlight {
+    background-color: #fffa65;
+    transition: background-color 0.3s ease;
+}
+    ]]>
+  </css>
+
+  <javascript>
+    <![CDATA[
+// Wait until the DOM is fully loaded
+document.addEventListener("DOMContentLoaded", function () {
+    const rows = document.querySelectorAll("tbody tr");
+
+    rows.forEach(row => {
+        row.addEventListener("click", function () {
+            // Toggle the 'highlight' class
+            this.classList.toggle("highlight");
+        });
+    });
+});
+    ]]>
+  </javascript>
+</project>
