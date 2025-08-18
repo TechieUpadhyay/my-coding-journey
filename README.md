@@ -26,3 +26,4 @@ In the future, when I look back, I’ll be able to see how I started with small 
 ---
 
 ✨ *“Every line of code I write is a step forward in my journey.”* ✨
+⚡ *"Fun Fact: This project was fully written and built on a mobile device!"*
